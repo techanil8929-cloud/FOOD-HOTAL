@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>London Bridge Hotel & Rooftop Restaurant | Muzaffarpur</title>
+    <meta name="description" content="London Bridge Rooftop Restaurant, 4th Floor Bansal Tower, Club Road, Bhagwaanpur - Mithanpura Rd, near Jubba Sahni Park, Muzaffarpur, Bihar 842001. Rated 4.3 with 2,258+ reviews." />
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="London Bridge Hotel & Rooftop Restaurant" />
+    <meta property="og:description" content="Luxury Stay • Fine Dining • ₹400–1,400 per person • Muzaffarpur" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            DEFAULT: '#D4AF37',
+                            light: '#F3E5AB',
+                            dark: '#AA8C2C',
+                        },
+                        charcoal: {
+                            900: '#0F0F0F',
+                            800: '#1A1A1A',
+                            700: '#262626',
+                            600: '#333333'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0f0f0f;
+            color: #f3f4f6;
+        }
+        h1, h2, h3, h4, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .glass {
+            background: rgba(26, 26, 26, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        .glass-card {
+            background: rgba(38, 38, 38, 0.6);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f0f0f; }
+        ::-webkit-scrollbar-thumb { background: #D4AF37; border-radius: 4px; }
+    </style>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "London Bridge Roof Top Restaurant",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+      "telephone": "+919122117250",
+      "priceRange": "₹400-₹1,400",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4th Floor Bansal Tower, Club Road, Bhagwaanpur - Mithanpura Rd, near Jubba Sahni Park",
+        "addressLocality": "Muzaffarpur",
+        "addressRegion": "Bihar",
+        "postalCode": "842001",
+        "addressCountry": "IN"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "reviewCount": "2258"
+      }
+    }
+    </script>
+</head>
+<body class="bg-charcoal-900 text-gray-100 antialiased selection:bg-gold selection:text-black">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gold text-black text-xs md:text-sm font-semibold py-2 px-4 text-center tracking-wide flex flex-wrap justify-center items-center gap-4">
+        <span><i class="fas fa-map-marker-alt mr-1"></i> Club Road, Bhagwaanpur, Muzaffarpur</span>
+        <span class="hidden md:inline">|</span>
+        <span><i class="fas fa-phone-alt mr-1"></i> 091221 17250</span>
+        <span class="hidden md:inline">|</span>
+        <span><i class="fas fa-star text-black mr-1"></i> 4.3 (2,258+ Google Reviews)</span>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 glass border-b border-gold/20 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-full bg-gold/20 border border-gold flex items-center justify-center text-gold font-serif font-bold text-xl group-hover:bg-gold group-hover:text-black transition-all">
+                    LB
+                </div>
+                <div>
+                    <span class="font-serif text-xl sm:text-2xl font-bold tracking-wider text-gold">LONDON BRIDGE</span>
+                    <span class="block text-[10px] tracking-widest text-gray-400 uppercase">Roof Top Restaurant & Hotel</span>
+                </div>
+            </a>
+
+            <div class="hidden lg:flex items-center space-x-6 text-sm font-medium">
+                <a href="#home" class="hover:text-gold transition-colors">Home</a>
+                <a href="#about" class="hover:text-gold transition-colors">About</a>
+                <a href="#rooms" class="hover:text-gold transition-colors">Rooms</a>
+                <a href="#restaurant" class="hover:text-gold transition-colors">Restaurant</a>
+                <a href="#menu" class="hover:text-gold transition-colors">Menu</a>
+                <a href="#gallery" class="hover:text-gold transition-colors">Gallery</a>
+                <a href="#contact" class="hover:text-gold transition-colors">Contact</a>
+            </div>
+
+            <div class="flex items-center space-x-3">
+                <button onclick="openCartModal()" class="relative p-2.5 rounded-full glass-card hover:border-gold transition-all text-gold" title="View Cart">
+                    <i class="fas fa-shopping-bag text-lg"></i>
+                    <span id="cart-badge" class="absolute -top-1 -right-1 bg-gold text-black font-bold text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+                </button>
+                <button onclick="openTableModal()" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-gold-dark to-gold text-black px-5 py-2.5 rounded-full font-semibold text-sm hover:opacity-90 shadow-lg shadow-gold/25 transition-all">
+                    <i class="fas fa-chair"></i> Book Table
+                </button>
+                <button onclick="openAdminModal()" class="p-2.5 rounded-full glass-card hover:border-gold transition-all text-gray-300 hover:text-gold" title="Admin Panel">
+                    <i class="fas fa-lock text-sm"></i>
+                </button>
+                <button onclick="toggleMobileMenu()" class="lg:hidden p-2.5 rounded-full glass-card text-gold">
+                    <i class="fas fa-bars text-lg" id="mobile-menu-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden glass border-b border-gold/20 px-6 py-4 space-y-3">
+            <a href="#home" onclick="toggleMobileMenu()" class="block hover:text-gold py-1">Home</a>
+            <a href="#about" onclick="toggleMobileMenu()" class="block hover:text-gold py-1">About</a>
+            <a href="#rooms" onclick="toggleMobileMenu()" class="block hover:text-gold py-1">Rooms</a>
+            <a href="#restaurant" onclick="toggleMobileMenu()" class="block hover:text-gold py-1">Restaurant</a>
+            <a href="#menu" onclick="toggleMobileMenu()" class="block hover:text-gold py-1">Menu</a>
+            <a href="#gallery" onclick="toggleMobileMenu()" class="block hover:text-gold py-1">Gallery</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="block hover:text-gold py-1">Contact</a>
+            <div class="pt-2 flex gap-3">
+                <button onclick="openTableModal(); toggleMobileMenu();" class="w-full bg-gold text-black py-2 rounded-lg font-semibold text-sm">Book Table</button>
+                <button onclick="openRoomModal(); toggleMobileMenu();" class="w-full border border-gold text-gold py-2 rounded-lg font-semibold text-sm">Book Room</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" alt="London Bridge Restaurant" class="w-full h-full object-cover filter brightness-50 scale-105">
+            <div class="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/60 to-black/80"></div>
+        </div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-4 text-center py-20">
+            <span class="inline-block px-4 py-1.5 rounded-full glass text-gold text-xs sm:text-sm font-semibold tracking-widest uppercase mb-6 border border-gold/40">
+                ⭐ 4.3 Star Rated • 2,258+ Reviews[cite: 2, 3]
+            </span>
+            <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-6 leading-tight">
+                London Bridge <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-light via-gold to-gold-dark">Rooftop Restaurant</span>
+            </h1>
+            <p class="text-lg sm:text-2xl text-gray-300 font-light mb-10 max-w-2xl mx-auto font-serif">
+                Luxury Stay • Fine Dining • Muzaffarpur's Favourite Skyline Experience
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <button onclick="openRoomModal()" class="bg-gradient-to-r from-gold-dark to-gold text-black px-8 py-3.5 rounded-full font-bold shadow-xl hover:scale-105 transition-transform flex items-center gap-2">
+                    <i class="fas fa-bed"></i> Book a Room
+                </button>
+                <a href="#menu" class="glass border border-gold/50 text-gold px-8 py-3.5 rounded-full font-bold hover:bg-gold/10 transition-all flex items-center gap-2">
+                    <i class="fas fa-utensils"></i> View Menu
+                </a>
+                <button onclick="openTableModal()" class="glass border border-gold/50 text-gold px-8 py-3.5 rounded-full font-bold hover:bg-gold/10 transition-all flex items-center gap-2">
+                    <i class="fas fa-chair"></i> Book a Table
+                </button>
+                <a href="#menu" class="bg-charcoal-700 hover:bg-charcoal-600 border border-gray-700 text-white px-8 py-3.5 rounded-full font-bold transition-all flex items-center gap-2">
+                    <i class="fas fa-shopping-bag"></i> Order Food
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-charcoal-800/50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-gold uppercase tracking-widest text-xs font-bold block mb-3">About London Bridge</span>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-6 leading-tight">
+                        Exquisite dining & comfortable stay at Club Road, Muzaffarpur[cite: 2, 3].
+                    </h2>
+                    <p class="text-gray-300 text-base sm:text-lg mb-8 leading-relaxed font-light">
+                        Located on the 4th Floor of Bansal Tower near Jubba Sahni Park, London Bridge offers an unmatched rooftop ambiance with iconic dome seating, multi-cuisine delicacies, and premium hospitality[cite: 1, 2, 3].
+                    </p>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                        <div class="glass-card p-4 rounded-xl border border-gold/20 text-center">
+                            <i class="fas fa-door-open text-gold text-2xl mb-2"></i>
+                            <h4 class="font-semibold text-sm">Comfortable Rooms</h4>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl border border-gold/20 text-center">
+                            <i class="fas fa-utensils text-gold text-2xl mb-2"></i>
+                            <h4 class="font-semibold text-sm">Fine Dining</h4>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl border border-gold/20 text-center">
+                            <i class="fas fa-users text-gold text-2xl mb-2"></i>
+                            <h4 class="font-semibold text-sm">Family Restaurant</h4>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl border border-gold/20 text-center">
+                            <i class="fas fa-motorcycle text-gold text-2xl mb-2"></i>
+                            <h4 class="font-semibold text-sm">Online Food</h4>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl border border-gold/20 text-center">
+                            <i class="fas fa-calendar-check text-gold text-2xl mb-2"></i>
+                            <h4 class="font-semibold text-sm">Table Booking</h4>
+                        </div>
+                        <div class="glass-card p-4 rounded-xl border border-gold/20 text-center">
+                            <i class="fas fa-wallet text-gold text-2xl mb-2"></i>
+                            <h4 class="font-semibold text-sm">₹400–1,400 /p</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="relative z-10 rounded-2xl overflow-hidden border-2 border-gold/30 shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874" alt="Restaurant Interior" class="w-full h-[450px] object-cover hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 z-20 bg-charcoal-900 border border-gold p-6 rounded-2xl shadow-2xl hidden sm:block">
+                        <div class="flex items-center gap-4">
+                            <div class="text-gold font-serif text-4xl font-bold">4.3</div>
+                            <div>
+                                <div class="flex text-gold text-sm mb-1">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="text-xs text-gray-400">2,258+ Reviews on Google[cite: 2, 3]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="text-gold uppercase tracking-widest text-xs font-bold block mb-2">Luxury Accommodation</span>
+            <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-4">Our Rooms & Suites</h2>
+            <p class="text-gray-400">Designed for ultimate relaxation with plush bedding, modern amenities, and breathtaking views.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="glass-card rounded-2xl overflow-hidden border border-gold/20 flex flex-col group hover:border-gold transition-all">
+                <div class="relative h-52 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39" alt="Deluxe Room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <span class="absolute top-3 right-3 bg-charcoal-900/85 backdrop-blur border border-gold text-gold px-3 py-1 rounded-full text-xs font-bold">₹2,499 / night</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-serif text-xl font-bold mb-2 text-gold">Deluxe Room</h3>
+                        <p class="text-gray-400 text-sm mb-4">Cozy room equipped with modern luxury fixtures and queen bed.</p>
+                    </div>
+                    <button onclick="openRoomModal('Deluxe Room')" class="w-full bg-gold text-black py-2.5 rounded-xl font-bold text-sm hover:opacity-90 transition-all">Book Now</button>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-2xl overflow-hidden border border-gold/20 flex flex-col group hover:border-gold transition-all">
+                <div class="relative h-52 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843" alt="Premium Room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <span class="absolute top-3 right-3 bg-charcoal-900/85 backdrop-blur border border-gold text-gold px-3 py-1 rounded-full text-xs font-bold">₹3,499 / night</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-serif text-xl font-bold mb-2 text-gold">Premium Room</h3>
+                        <p class="text-gray-400 text-sm mb-4">Spacious room with elegant interior decor and city view.</p>
+                    </div>
+                    <button onclick="openRoomModal('Premium Room')" class="w-full bg-gold text-black py-2.5 rounded-xl font-bold text-sm hover:opacity-90 transition-all">Book Now</button>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-2xl overflow-hidden border border-gold/20 flex flex-col group hover:border-gold transition-all">
+                <div class="relative h-52 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a" alt="Family Room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <span class="absolute top-3 right-3 bg-charcoal-900/85 backdrop-blur border border-gold text-gold px-3 py-1 rounded-full text-xs font-bold">₹4,999 / night</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-serif text-xl font-bold mb-2 text-gold">Family Room</h3>
+                        <p class="text-gray-400 text-sm mb-4">Generously sized for families with multiple beds and seating area.</p>
+                    </div>
+                    <button onclick="openRoomModal('Family Room')" class="w-full bg-gold text-black py-2.5 rounded-xl font-bold text-sm hover:opacity-90 transition-all">Book Now</button>
+                </div>
+            </div>
+
+            <div class="glass-card rounded-2xl overflow-hidden border border-gold/20 flex flex-col group hover:border-gold transition-all">
+                <div class="relative h-52 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461" alt="Executive Room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    <span class="absolute top-3 right-3 bg-charcoal-900/85 backdrop-blur border border-gold text-gold px-3 py-1 rounded-full text-xs font-bold">₹6,499 / night</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-serif text-xl font-bold mb-2 text-gold">Executive Room</h3>
+                        <p class="text-gray-400 text-sm mb-4">Ultimate luxury suite with king bed, lounge area, and VIP service.</p>
+                    </div>
+                    <button onclick="openRoomModal('Executive Room')" class="w-full bg-gold text-black py-2.5 rounded-xl font-bold text-sm hover:opacity-90 transition-all">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Cuisines -->
+    <section id="restaurant" class="py-24 bg-charcoal-800/40 border-y border-gold/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-gold uppercase tracking-widest text-xs font-bold block mb-2">Culinary Excellence</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-4">Our Restaurant Cuisines</h2>
+                <p class="text-gray-400">Authentic flavors ranging from North Indian tandoor to Chinese and gourmet beverages.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <div onclick="filterMenuCategory('Indian')" class="glass-card p-6 rounded-2xl text-center cursor-pointer hover:border-gold hover:scale-105 transition-all group">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all"><i class="fas fa-pepper-hot text-2xl"></i></div>
+                    <h3 class="font-bold text-sm">North Indian</h3>
+                </div>
+                <div onclick="filterMenuCategory('Chinese')" class="glass-card p-6 rounded-2xl text-center cursor-pointer hover:border-gold hover:scale-105 transition-all group">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all"><i class="fas fa-bowl-food text-2xl"></i></div>
+                    <h3 class="font-bold text-sm">Chinese</h3>
+                </div>
+                <div onclick="filterMenuCategory('Tandoor')" class="glass-card p-6 rounded-2xl text-center cursor-pointer hover:border-gold hover:scale-105 transition-all group">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all"><i class="fas fa-fire text-2xl"></i></div>
+                    <h3 class="font-bold text-sm">Tandoor Special</h3>
+                </div>
+                <div onclick="filterMenuCategory('Snacks')" class="glass-card p-6 rounded-2xl text-center cursor-pointer hover:border-gold hover:scale-105 transition-all group">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all"><i class="fas fa-hamburger text-2xl"></i></div>
+                    <h3 class="font-bold text-sm">Snacks</h3>
+                </div>
+                <div onclick="filterMenuCategory('Beverages')" class="glass-card p-6 rounded-2xl text-center cursor-pointer hover:border-gold hover:scale-105 transition-all group">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all"><i class="fas fa-glass-cheers text-2xl"></i></div>
+                    <h3 class="font-bold text-sm">Beverages</h3>
+                </div>
+                <div onclick="filterMenuCategory('Desserts')" class="glass-card p-6 rounded-2xl text-center cursor-pointer hover:border-gold hover:scale-105 transition-all group">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-black transition-all"><i class="fas fa-birthday-cake text-2xl"></i></div>
+                    <h3 class="font-bold text-sm">Desserts</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-gold uppercase tracking-widest text-xs font-bold block mb-2">Digital Menu Card</span>
+            <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-4">Explore Our Menu</h2>
+            <p class="text-gray-400">Order online for fast delivery or enjoy at our rooftop dining space.</p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-4 items-center justify-between mb-8">
+            <div class="relative w-full md:w-80">
+                <i class="fas fa-search absolute left-4 top-3.5 text-gray-400"></i>
+                <input type="text" id="menu-search" oninput="handleMenuSearch()" placeholder="Search dishes..." class="w-full bg-charcoal-800 border border-gold/30 rounded-full pl-11 pr-4 py-3 text-sm focus:outline-none focus:border-gold text-white">
+            </div>
+
+            <div class="flex gap-2 overflow-x-auto w-full pb-2 md:pb-0 scrollbar-none" id="category-tabs">
+                <button onclick="filterCategory('All')" class="category-btn active px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap bg-gold text-black transition-all">All Items</button>
+                <button onclick="filterCategory('Dal')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Dal</button>
+                <button onclick="filterCategory('Indian Bread')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Indian Bread</button>
+                <button onclick="filterCategory('Rice & Biryani')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Rice & Biryani</button>
+                <button onclick="filterCategory('Platters')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Platters</button>
+                <button onclick="filterCategory('Starters')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Starters</button>
+                <button onclick="filterCategory('Main Course')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Main Course</button>
+                <button onclick="filterCategory('Chinese')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Chinese</button>
+                <button onclick="filterCategory('Desserts')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Desserts</button>
+                <button onclick="filterCategory('Beverages')" class="category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all">Beverages</button>
+            </div>
+        </div>
+
+        <div id="menu-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </section>
+
+    <!-- Order Tracking Section -->
+    <section class="py-16 bg-charcoal-800/60 border-y border-gold/20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <span class="text-gold uppercase tracking-widest text-xs font-bold block mb-2">Live Order Status</span>
+            <h2 class="font-serif text-3xl font-bold mb-6">Track Your Food Order</h2>
+            <div class="glass p-6 sm:p-8 rounded-2xl border border-gold/30 max-w-xl mx-auto">
+                <div class="flex gap-2 mb-6">
+                    <input type="text" id="track-id-input" placeholder="Enter Order ID (e.g. #LB0001)" class="flex-1 bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-gold text-white">
+                    <button onclick="trackOrder()" class="bg-gold text-black px-6 py-3 rounded-xl font-bold text-sm hover:opacity-90">Track</button>
+                </div>
+                <div id="tracking-result" class="hidden text-left space-y-4">
+                    <div class="flex justify-between items-center border-b border-gray-700 pb-3">
+                        <div>
+                            <span class="text-xs text-gray-400">Order ID:</span>
+                            <h4 id="track-order-num" class="font-bold text-gold">#LB0001</h4>
+                        </div>
+                        <span class="px-3 py-1 bg-amber-500/20 text-amber-400 border border-amber-500/40 rounded-full text-xs font-bold">Preparing</span>
+                    </div>
+                    <div class="space-y-3 pt-2">
+                        <div class="flex items-center gap-3 text-sm"><i class="fas fa-check-circle text-green-500"></i> Order Received</div>
+                        <div class="flex items-center gap-3 text-sm"><i class="fas fa-check-circle text-green-500"></i> Confirmed by Restaurant</div>
+                        <div class="flex items-center gap-3 text-sm animate-pulse text-gold"><i class="fas fa-fire"></i> Preparing delicious food</div>
+                        <div class="flex items-center gap-3 text-sm text-gray-500"><i class="fas fa-bicycle"></i> Out for Delivery</div>
+                        <div class="flex items-center gap-3 text-sm text-gray-500"><i class="fas fa-box-open"></i> Delivered</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Including uploaded reference dome & interior photos) -->
+    <section id="gallery" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="text-gold uppercase tracking-widest text-xs font-bold block mb-2">Visual Tour</span>
+            <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-4">Hotel & Restaurant Gallery</h2>
+            <p class="text-gray-400">Explore our signature rooftop dome, fine dining setup, and ambiance.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div onclick="openLightbox(this)" class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer border border-gold/20">
+                <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874" alt="Rooftop Dome" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                    <span class="text-gold font-bold text-sm"><i class="fas fa-search-plus mr-2"></i> Rooftop Glass Dome</span>
+                </div>
+            </div>
+            <div onclick="openLightbox(this)" class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer border border-gold/20">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39" alt="Hotel Room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                    <span class="text-gold font-bold text-sm"><i class="fas fa-search-plus mr-2"></i> Luxury Room</span>
+                </div>
+            </div>
+            <div onclick="openLightbox(this)" class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer border border-gold/20">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="Restaurant Bar" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                    <span class="text-gold font-bold text-sm"><i class="fas fa-search-plus mr-2"></i> Restaurant Ambiance</span>
+                </div>
+            </div>
+            <div onclick="openLightbox(this)" class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer border border-gold/20">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Delicious Food" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                    <span class="text-gold font-bold text-sm"><i class="fas fa-search-plus mr-2"></i> Signature Food</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="py-24 bg-charcoal-800/40 border-t border-gold/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <span class="text-gold uppercase tracking-widest text-xs font-bold block mb-2">Get In Touch</span>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-6">Visit London Bridge</h2>
+                    <p class="text-gray-400 mb-8">4th Floor Bansal Tower, Club Road, Bhagwaanpur - Mithanpura Rd, near Jubba Sahni Park, Muzaffarpur, Bihar 842001[cite: 2, 3]</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center text-gold shrink-0">
+                                <i class="fas fa-map-marker-alt text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white">Exact Address</h4>
+                                <p class="text-gray-400 text-sm">4th Floor Bansal Tower, Club Road, Bhagwaanpur - Mithanpura Rd, near Jubba Sahni Park, Muzaffarpur, Bihar 842001[cite: 2, 3]</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center text-gold shrink-0">
+                                <i class="fas fa-phone-alt text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white">Phone Number</h4>
+                                <p class="text-gray-400 text-sm">091221 17250[cite: 2, 3]</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center text-gold shrink-0">
+                                <i class="fas fa-wallet text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-white">Average Cost</h4>
+                                <p class="text-gray-400 text-sm">₹400–1,400 per person[cite: 2, 3]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl overflow-hidden border border-gold/30 h-[400px] shadow-2xl relative">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.6!2d85.3906!3d26.1226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed114d3b6fa0c3%3A0x3b45fef8acbaea00!2sLondon%20Bridge%20Roof%20Top%20Restaurant!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-400 py-12 border-t border-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div>
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="w-8 h-8 rounded-full bg-gold text-black font-bold flex items-center justify-center font-serif">LB</div>
+                    <span class="font-serif text-lg font-bold text-gold">London Bridge</span>
+                </div>
+                <p class="text-xs text-gray-400 leading-relaxed">London Bridge Rooftop Restaurant & Hotel, Muzaffarpur. Rated 4.3 with 2,258+ reviews[cite: 2, 3].</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3 text-sm">Quick Links</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#about" class="hover:text-gold">About Us</a></li>
+                    <li><a href="#rooms" class="hover:text-gold">Rooms & Suites</a></li>
+                    <li><a href="#restaurant" class="hover:text-gold">Restaurant</a></li>
+                    <li><a href="#menu" class="hover:text-gold">Digital Menu</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3 text-sm">Customer Services</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><button onclick="openTableModal()" class="hover:text-gold">Table Reservation</button></li>
+                    <li><button onclick="openRoomModal()" class="hover:text-gold">Room Booking</button></li>
+                    <li><button onclick="openCartModal()" class="hover:text-gold">Online Food Order</button></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-3 text-sm">Connect With Us</h4>
+                <div class="flex space-x-3 mb-4">
+                    <a href="https://wa.me/919122117250" target="_blank" class="w-9 h-9 rounded-full glass border border-gold/30 flex items-center justify-center text-gold hover:bg-gold hover:text-black transition-all"><i class="fab fa-whatsapp"></i></a>
+                    <a href="tel:09122117250" class="w-9 h-9 rounded-full glass border border-gold/30 flex items-center justify-center text-gold hover:bg-gold hover:text-black transition-all"><i class="fas fa-phone-alt"></i></a>
+                    <a href="https://maps.app.goo.gl/2BKT9hp3prN1Mg2tC" target="_blank" class="w-9 h-9 rounded-full glass border border-gold/30 flex items-center justify-center text-gold hover:bg-gold hover:text-black transition-all"><i class="fas fa-map-marker-alt"></i></a>
+                </div>
+                <p class="text-xs text-gray-500">© 2026 London Bridge Hotel & Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile Bar -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 bg-charcoal-900/95 backdrop-blur border-t border-gold/30 p-3 flex justify-around items-center lg:hidden">
+        <a href="tel:09122117250" class="flex flex-col items-center text-xs text-gold"><i class="fas fa-phone-alt text-lg mb-0.5"></i>Call</a>
+        <a href="https://wa.me/919122117250" target="_blank" class="flex flex-col items-center text-xs text-gold"><i class="fab fa-whatsapp text-lg mb-0.5"></i>WhatsApp</a>
+        <button onclick="openTableModal()" class="flex flex-col items-center text-xs text-gold"><i class="fas fa-chair text-lg mb-0.5"></i>Reserve</button>
+        <button onclick="openCartModal()" class="flex flex-col items-center text-xs text-gold relative"><i class="fas fa-shopping-bag text-lg mb-0.5"></i>Order<span id="mobile-cart-badge" class="absolute -top-1 right-2 bg-gold text-black font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center">0</span></button>
+    </div>
+
+    <!-- Modals -->
+    <div id="cart-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="glass border border-gold/30 w-full max-w-2xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
+            <div class="p-5 border-b border-gold/20 flex justify-between items-center bg-charcoal-800">
+                <h3 class="font-serif text-xl font-bold text-gold flex items-center gap-2"><i class="fas fa-shopping-bag"></i> Your Food Cart</h3>
+                <button onclick="closeCartModal()" class="text-gray-400 hover:text-white"><i class="fas fa-times text-xl"></i></button>
+            </div>
+            <div class="p-6 overflow-y-auto flex-1 space-y-4" id="cart-items-container"></div>
+            <div id="cart-checkout-section" class="p-6 border-t border-gold/20 bg-charcoal-800 hidden space-y-4">
+                <div class="flex justify-between text-lg font-bold">
+                    <span>Subtotal:</span>
+                    <span id="cart-subtotal" class="text-gold">₹0</span>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <input type="text" id="order-name" placeholder="Your Name" class="bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                    <input type="text" id="order-phone" placeholder="Mobile Number" class="bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                </div>
+                <input type="text" id="order-address" placeholder="Delivery Address in Muzaffarpur" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                <div class="flex gap-4">
+                    <label class="flex items-center gap-2 text-sm cursor-pointer"><input type="radio" name="payment" value="COD" checked class="accent-gold"> Cash on Delivery</label>
+                    <label class="flex items-center gap-2 text-sm cursor-pointer"><input type="radio" name="payment" value="Online" class="accent-gold"> Online Payment</label>
+                </div>
+                <button onclick="placeOrder()" class="w-full bg-gradient-to-r from-gold-dark to-gold text-black py-3 rounded-xl font-bold text-sm shadow-lg hover:opacity-95 transition-all">Place Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="table-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="glass border border-gold/30 w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl">
+            <div class="p-5 border-b border-gold/20 flex justify-between items-center bg-charcoal-800">
+                <h3 class="font-serif text-xl font-bold text-gold flex items-center gap-2"><i class="fas fa-chair"></i> Reserve a Table</h3>
+                <button onclick="closeTableModal()" class="text-gray-400 hover:text-white"><i class="fas fa-times text-xl"></i></button>
+            </div>
+            <div class="p-6 space-y-4">
+                <input type="text" id="res-name" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold" placeholder="Your Name">
+                <input type="text" id="res-phone" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold" placeholder="Mobile Number">
+                <div class="grid grid-cols-2 gap-4">
+                    <input type="date" id="res-date" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                    <input type="time" id="res-time" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                </div>
+                <select id="res-guests" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                    <option>1 Person</option><option selected>2 People</option><option>4 People</option><option>6 People</option><option>10+ People</option>
+                </select>
+                <button onclick="submitTableReservation()" class="w-full bg-gold text-black py-3 rounded-xl font-bold text-sm hover:opacity-90">Reserve Table</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="room-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="glass border border-gold/30 w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl">
+            <div class="p-5 border-b border-gold/20 flex justify-between items-center bg-charcoal-800">
+                <h3 class="font-serif text-xl font-bold text-gold flex items-center gap-2"><i class="fas fa-bed"></i> Book a Room</h3>
+                <button onclick="closeRoomModal()" class="text-gray-400 hover:text-white"><i class="fas fa-times text-xl"></i></button>
+            </div>
+            <div class="p-6 space-y-4">
+                <input type="text" id="room-name" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold" placeholder="Guest Name">
+                <input type="text" id="room-phone" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold" placeholder="Mobile Number">
+                <div class="grid grid-cols-2 gap-4">
+                    <input type="date" id="room-checkin" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                    <input type="date" id="room-checkout" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                </div>
+                <select id="room-type-select" class="w-full bg-charcoal-900 border border-gold/30 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-gold">
+                    <option>Deluxe Room (₹2,499)</option><option>Premium Room (₹3,499)</option><option>Family Room (₹4,999)</option><option>Executive Room (₹6,499)</option>
+                </select>
+                <button onclick="submitRoomBooking()" class="w-full bg-gold text-black py-3 rounded-xl font-bold text-sm hover:opacity-90">Book Room</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="admin-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="glass border border-gold/30 w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
+            <div class="p-5 border-b border-gold/20 flex justify-between items-center bg-charcoal-800">
+                <h3 class="font-serif text-xl font-bold text-gold flex items-center gap-2"><i class="fas fa-lock"></i> Admin Dashboard</h3>
+                <button onclick="closeAdminModal()" class="text-gray-400 hover:text-white"><i class="fas fa-times text-xl"></i></button>
+            </div>
+            <div class="p-6 overflow-y-auto flex-1 space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="glass-card p-4 rounded-xl border border-gold/20"><span class="text-xs text-gray-400">Total Orders</span><h4 class="text-2xl font-bold text-gold">1</h4></div>
+                    <div class="glass-card p-4 rounded-xl border border-gold/20"><span class="text-xs text-gray-400">Table Bookings</span><h4 class="text-2xl font-bold text-gold">3</h4></div>
+                    <div class="glass-card p-4 rounded-xl border border-gold/20"><span class="text-xs text-gray-400">Room Bookings</span><h4 class="text-2xl font-bold text-gold">2</h4></div>
+                </div>
+                <div>
+                    <h4 class="font-serif text-lg font-bold mb-3 text-gold">Active Orders Management</h4>
+                    <table class="w-full text-left text-sm">
+                        <thead class="bg-charcoal-800 text-gold border-b border-gold/20">
+                            <tr><th class="p-3">Order ID</th><th class="p-3">Customer</th><th class="p-3">Total</th><th class="p-3">Status</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b border-gray-800"><td class="p-3 font-bold text-gold">#LB0001</td><td class="p-3">Rahul Sharma</td><td class="p-3">₹520</td><td class="p-3"><span class="px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-400 text-xs">Preparing</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script>
+        const menuItems = [
+            { id: 1, name: "Dal Tadka", category: "Dal", price: 180, type: "veg", desc: "Yellow lentils tempered with ghee, garlic and cumin seeds.", image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d" },
+            { id: 2, name: "Dal Makhani", category: "Dal", price: 240, type: "veg", desc: "Slow-cooked black lentils with rich butter and cream.", image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc" },
+            { id: 3, name: "Butter Naan", category: "Indian Bread", price: 45, type: "veg", desc: "Soft leavened bread brushed with melted butter.", image: "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46" },
+            { id: 4, name: "Garlic Naan", category: "Indian Bread", price: 60, type: "veg", desc: "Tandoor baked bread topped with garlic and herbs.", image: "https://images.unsplash.com/photo-1601050690597-df0568f70950" },
+            { id: 5, name: "Veg Biryani", category: "Rice & Biryani", price: 220, type: "veg", desc: "Fragrant basmati rice cooked with assorted vegetables and spices.", image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8" },
+            { id: 6, name: "Chicken Biryani", category: "Rice & Biryani", price: 320, type: "non-veg", desc: "Aromatic basmati rice layered with tender chicken and saffron.", image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8" },
+            { id: 7, name: "Royal Deluxe Platter", category: "Platters", price: 650, type: "veg", desc: "Assortment of tandoori starters, paneer tikka, and kebabs.", image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5" },
+            { id: 8, name: "Paneer Tikka", category: "Starters", price: 280, type: "veg", desc: "Cottage cheese cubes marinated in yogurt and Indian spices.", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445" },
+            { id: 9, name: "Chicken Tikka", category: "Starters", price: 350, type: "non-veg", desc: "Juicy chicken chunks grilled in traditional clay oven.", image: "https://images.unsplash.com/photo-1599487488170-ded1ec26ae5f" },
+            { id: 10, name: "Paneer Butter Masala", category: "Main Course", price: 290, type: "veg", desc: "Soft paneer in rich tomato and cashew gravy.", image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7" },
+            { id: 11, name: "Butter Chicken", category: "Main Course", price: 380, type: "non-veg", desc: "Classic tender chicken in creamy makhani sauce.", image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398" },
+            { id: 12, name: "Veg Hakka Noodles", category: "Chinese", price: 200, type: "veg", desc: "Stir-fried noodles tossed with fresh vegetables and soy sauce.", image: "https://images.unsplash.com/photo-1585032226651-759b368d7246" },
+            { id: 13, name: "Chicken Manchurian", category: "Chinese", price: 310, type: "non-veg", desc: "Crispy chicken balls in spicy tangy manchurian sauce.", image: "https://images.unsplash.com/photo-1525755662778-989d0524087e" },
+            { id: 14, name: "Gulab Jamun (2 pcs)", category: "Desserts", price: 90, type: "veg", desc: "Deep-fried milk dumplings soaked in rose sugar syrup.", image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55" },
+            { id: 15, name: "Virgin Mojito", category: "Beverages", price: 150, type: "veg", desc: "Refreshing mocktail with fresh mint, lime, and soda.", image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87" }
+        ];
+
+        let cart = [];
+
+        function renderMenu(items = menuItems) {
+            const grid = document.getElementById('menu-grid');
+            if (items.length === 0) {
+                grid.innerHTML = `<div class="col-span-full text-center py-12 text-gray-400">No items found.</div>`;
+                return;
+            }
+            grid.innerHTML = items.map(item => `
+                <div class="glass-card rounded-2xl overflow-hidden border border-gold/20 flex flex-col justify-between group hover:border-gold transition-all">
+                    <div class="relative h-48 overflow-hidden">
+                        <img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <span class="absolute top-3 right-3 bg-charcoal-900/85 backdrop-blur border border-gold text-gold px-3 py-1 rounded-full text-xs font-bold">₹${item.price}</span>
+                        <span class="absolute top-3 left-3 px-2.5 py-0.5 rounded text-[10px] font-bold ${item.type === 'veg' ? 'bg-green-600 text-white' : 'bg-red-600 text-white'}">${item.type.toUpperCase()}</span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-serif text-lg font-bold mb-1 text-gold">${item.name}</h3>
+                            <p class="text-gray-400 text-xs mb-4 line-clamp-2">${item.desc}</p>
+                        </div>
+                        <div class="flex gap-2 pt-2 border-t border-gray-800">
+                            <button onclick="addToCart(${item.id})" class="flex-1 bg-gold/10 border border-gold/40 text-gold py-2 rounded-xl text-xs font-bold hover:bg-gold hover:text-black transition-all"><i class="fas fa-cart-plus mr-1"></i> Add</button>
+                            <button onclick="addToCart(${item.id}); openCartModal();" class="flex-1 bg-gold text-black py-2 rounded-xl text-xs font-bold hover:opacity-90 transition-all"><i class="fas fa-bolt mr-1"></i> Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterCategory(category) {
+            document.querySelectorAll('.category-btn').forEach(btn => {
+                if (btn.innerText.toLowerCase() === category.toLowerCase() || (category === 'All' && btn.innerText === 'All Items')) {
+                    btn.className = 'category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap bg-gold text-black transition-all';
+                } else {
+                    btn.className = 'category-btn px-5 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap glass border border-gold/30 hover:border-gold transition-all';
+                }
+            });
+            if (category === 'All') renderMenu(menuItems);
+            else renderMenu(menuItems.filter(i => i.category.toLowerCase() === category.toLowerCase()));
+        }
+
+        function filterMenuCategory(c) {
+            document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+            if (c === 'Indian') filterCategory('Main Course');
+            else if (c === 'Chinese') filterCategory('Chinese');
+            else if (c === 'Tandoor') filterCategory('Starters');
+            else if (c === 'Snacks') filterCategory('Starters');
+            else if (c === 'Beverages') filterCategory('Beverages');
+            else if (c === 'Desserts') filterCategory('Desserts');
+        }
+
+        function handleMenuSearch() {
+            const q = document.getElementById('menu-search').value.toLowerCase();
+            renderMenu(menuItems.filter(i => i.name.toLowerCase().includes(q) || i.desc.toLowerCase().includes(q)));
+        }
+
+        function addToCart(id) {
+            const item = menuItems.find(i => i.id === id);
+            const ext = cart.find(c => c.id === id);
+            if (ext) ext.qty++; else cart.push({ ...item, qty: 1 });
+            updateCartUI();
+        }
+
+        function updateCartQty(id, delta) {
+            const item = cart.find(c => c.id === id);
+            if (item) {
+                item.qty += delta;
+                if (item.qty <= 0) cart = cart.filter(c => c.id !== id);
+            }
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            const total = cart.reduce((s, i) => s + i.qty, 0);
+            document.getElementById('cart-badge').innerText = total;
+            document.getElementById('mobile-cart-badge').innerText = total;
+            const container = document.getElementById('cart-items-container');
+            const checkout = document.getElementById('cart-checkout-section');
+            if (cart.length === 0) {
+                container.innerHTML = `<div class="text-center py-12 text-gray-400"><i class="fas fa-shopping-basket text-4xl mb-3 text-gold/50"></i><p>Your cart is empty.</p></div>`;
+                checkout.classList.add('hidden');
+                return;
+            }
+            checkout.classList.remove('hidden');
+            let subtotal = 0;
+            container.innerHTML = cart.map(item => {
+                subtotal += item.price * item.qty;
+                return `
+                    <div class="flex items-center justify-between bg-charcoal-900/60 p-3 rounded-xl border border-gray-800">
+                        <div class="flex items-center gap-3">
+                            <img src="${item.image}" class="w-12 h-12 object-cover rounded-lg">
+                            <div><h4 class="font-bold text-sm text-white">${item.name}</h4><span class="text-xs text-gold">₹${item.price} x ${item.qty}</span></div>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button onclick="updateCartQty(${item.id}, -1)" class="w-7 h-7 bg-charcoal-700 rounded-lg text-xs font-bold hover:bg-gold hover:text-black">-</button>
+                            <span class="text-sm font-bold w-5 text-center">${item.qty}</span>
+                            <button onclick="updateCartQty(${item.id}, 1)" class="w-7 h-7 bg-charcoal-700 rounded-lg text-xs font-bold hover:bg-gold hover:text-black">+</button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            document.getElementById('cart-subtotal').innerText = `₹${subtotal}`;
+        }
+
+        function openCartModal() { document.getElementById('cart-modal').classList.remove('hidden'); updateCartUI(); }
+        function closeCartModal() { document.getElementById('cart-modal').classList.add('hidden'); }
+        function openTableModal() { document.getElementById('table-modal').classList.remove('hidden'); }
+        function closeTableModal() { document.getElementById('table-modal').classList.add('hidden'); }
+        function openRoomModal(rn) { document.getElementById('room-modal').classList.remove('hidden'); if(rn){ document.getElementById('room-type-select').value = rn + ' (₹' + (rn==='Deluxe Room'?'2,499':rn==='Premium Room'?'3,499':rn==='Family Room'?'4,999':'6,499') + ')'; } }
+        function closeRoomModal() { document.getElementById('room-modal').classList.add('hidden'); }
+        function openAdminModal() { document.getElementById('admin-modal').classList.remove('hidden'); }
+        function closeAdminModal() { document.getElementById('admin-modal').classList.add('hidden'); }
+
+        function placeOrder() {
+            if(!document.getElementById('order-name').value || !document.getElementById('order-phone').value || !document.getElementById('order-address').value) {
+                alert('Please enter your name, phone number and address.'); return;
+            }
+            alert('Order placed successfully!\nYour Order ID: #LB0001');
+            cart = []; closeCartModal(); updateCartUI();
+        }
+
+        function submitTableReservation() {
+            if(!document.getElementById('res-name').value || !document.getElementById('res-phone').value){ alert('Please fill required fields.'); return; }
+            alert('Table reserved successfully at London Bridge Rooftop Restaurant!'); closeTableModal();
+        }
+
+        function submitRoomBooking() {
+            if(!document.getElementById('room-name').value || !document.getElementById('room-phone').value){ alert('Please fill required fields.'); return; }
+            alert('Room booked successfully!'); closeRoomModal();
+        }
+
+        function trackOrder() {
+            if(!document.getElementById('track-id-input').value.trim()){ alert('Enter Order ID'); return; }
+            document.getElementById('tracking-result').classList.remove('hidden');
+        }
+
+        function openLightbox(el) { window.open(el.querySelector('img').src, '_blank'); }
+
+        window.onload = () => { renderMenu(); };
+    </script>
+</body>
+</html>
